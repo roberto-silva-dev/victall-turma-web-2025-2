@@ -1,7 +1,4 @@
-# Tutorial: App de Cadastro de Produtos em Django (views function-based + templates)
-
-**Objetivo:** ensinar alunos iniciantes a criar um app Django para cadastrar produtos simples (sem imagens), usando models, queries e templates. Ideal para praticar CRUD e conteúdo dinâmico em HTML.
-
+# Tutorial: App de gerenciamneto de produtos em Django (views function-based + templates)
 ---
 
 ## Pré-requisitos
