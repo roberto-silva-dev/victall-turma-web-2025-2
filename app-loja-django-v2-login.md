@@ -71,8 +71,7 @@ autenticacao/
 ├── views.py
 ├── urls.py
 └── templates/
-    └── autenticacao/
-        └── login.html
+    └── login.html
 ```
 
 ---
@@ -115,7 +114,7 @@ def login_view(request):
                 messages.error(request, "Usuário ou senha inválidos.")
     else:
         form = LoginForm()
-    return render(request, "autenticacao/login.html", {"form": form})
+    return render(request, "login.html", {"form": form})
 
 def logout_view(request):
     logout(request)
